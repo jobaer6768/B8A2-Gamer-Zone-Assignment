@@ -17,7 +17,7 @@
 
   .nav-title{
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .nav-items a{
@@ -36,6 +36,18 @@
 
   .banner-text{
     padding-left: 30px;
+  }
+
+  .games-card-container{
+    grid-template-columns: 1fr;
+  }
+
+  .card img{
+    padding-left: 36px;
+  }
+
+  .card p{
+    text-align: center;
   }
 
 }
