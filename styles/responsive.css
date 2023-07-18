@@ -1,0 +1,31 @@
+/* mobile device */
+@media screen and (max-width: 576px) {
+  
+  .nav-container,
+  .nav-items{
+    flex-direction: column;
+  }
+
+  .nav-container{
+    padding: 30px;
+  }
+
+  .nav-title, .nav-items{
+    width: 100%;
+  }
+
+  .nav-title{
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .nav-items a{
+    margin-bottom: 36px;
+    justify-content: center;
+  }
+
+  .nav-items .follow{
+    margin-top: 20px;
+  }
+
+}
