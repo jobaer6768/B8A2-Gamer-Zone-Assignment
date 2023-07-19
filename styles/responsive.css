@@ -93,4 +93,24 @@
     width: 40%;
   }
 
+  /* footer section */
+  .footer-section .link-container, .footer-section .icon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    gap: 30px;
+  }
+
+  .footer-section .icon-container, .footer-section .privacy-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer-section .privacy-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
