@@ -195,4 +195,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+
+  .footer-section .copyright{
+    margin-top: 50px;
+    padding-bottom: 60px;
+  }
 }
