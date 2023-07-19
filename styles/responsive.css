@@ -75,4 +75,22 @@
     width: 50%;
   }
 
+  /* icon section */
+  .icon-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-content: normal;
+    gap: 30px;
+  }
+
+  .icon{
+    font-size: 14px;
+    gap: 5px;
+  }
+
+  .icon img{
+    width: 40%;
+  }
+
 }
