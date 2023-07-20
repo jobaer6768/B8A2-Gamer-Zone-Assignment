@@ -10,10 +10,14 @@ body{
 }
 
 .btn-primary, .btn-secondary{
+  color: #FFF;
   padding: 21px 40px;
   border-radius: 48px;
   border: 0;
   background: #FF42A5;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase
 }
 
 /* nav section starts here */
